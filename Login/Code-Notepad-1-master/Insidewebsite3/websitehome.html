@@ -1,0 +1,47 @@
+<?php
+mysql_connect('localhost','root','');
+mysql_select_db('register');
+$sql="SELECT * FROM users";
+$records=mysql_query($sql);
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>website</title>
+	<link rel="stylesheet" type="text/css" href="HomeStyle.css">
+</head>
+<body>
+<div id="container">
+<div id="header">
+	<a href="http://localhost/Insidewebsite3/websitehome.html">Home</a>
+	<a href="http://localhost/Insidewebsite3/view.php">View</a>
+	<a href="http://localhost/login+registerfinal3/loginpageyoutube.php" style="float:right" class="Log">Logout</a>
+</div>
+<div id="content">
+<div id="profile">
+
+<img src="http://www.hrzone.com/sites/all/themes/pp/img/default-user.png" alt="Profile pic">
+
+
+	
+</div>
+<div id="Text">
+<form action="save.php" method="post">
+<input type="text" name="title" id="Title" style="border: solid 1px black;" placeholder="TITLE" />
+ <textarea placeholder="COPY YOUR CODE :" rows="10" columns="50" style="border: solid 1px black;" id=textin name="Text"></textarea><br>
+ 
+ 	<input type="submit" name="button" value="submit" id="btn">
+ </form>
+
+</div>
+</div>
+
+<div id="footer">
+	
+
+</div>
+</div>
+</body>
+</html>

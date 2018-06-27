@@ -1,0 +1,38 @@
+body{
+  background-image: url(http://www.qygjxz.com/data/out/131/3962989-iron-man-wallpaper.png);
+  background-size:1300px;
+  background background-repeat: no-repeat;
+  
+}
+#container
+{
+  width: 300px;
+  height:250px;
+  text-align: center;
+  background-color: rgba(52,73,94,0.7);
+  margin-top: 150px;
+  margin-left: 550px;
+  border-radius: 5px;
+  padding-top: 80px;
+}
+input{
+  height: 23px;
+  width: 200px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-family:serif;
+
+}
+#btn
+{
+  width: 100px;
+  border-radius: 4px;
+  background-color: #008080;
+  color: aliceblue;
+  margin-top: 13px;
+cursor:pointer;
+}
+a{
+  color: azure;
+  text-decoration: none
+}

@@ -1,0 +1,86 @@
+body{
+	background-image: url(http://greywolf-graphics.com/images/firewatch-wallpaper-/firewatch-wallpaper--14.jpg);
+}
+
+
+
+
+
+#container{
+width: 1300px;
+margin-right: auto;
+margin-left: auto;
+}
+#header{
+
+background-color: rgba(117, 163, 152,0.7);
+height: 30px;
+}
+ a:link
+ {  display: inline-block;
+	color:  #f6ddcc;
+	font: small-caps;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 15px;
+
+}
+a:visited{
+	color: #f6ddcc;
+}
+#content
+{
+	padding: 10px 10px 10px 10px;
+}
+#profile
+{
+	width:310px;
+	float: left;
+	
+}
+#attendance{
+	width: 900px;
+	float: right;
+	
+	padding: 5px;
+}
+#footer{
+	clear: both;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 1260px;
+	margin-right: auto;
+	text-align: right;
+	margin-left: auto;
+
+}
+img{
+	width:80px;
+	height: 90px;
+	border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 25px;
+
+}
+
+
+  
+
+#Title{
+	margin-top: 20px;
+    
+}
+input{
+	margin-top: 50px;
+
+}
+#view{
+	width: 400px;
+
+}
+table{
+	margin-top: 40px;
+}
+
